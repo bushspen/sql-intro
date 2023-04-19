@@ -24,4 +24,8 @@
 -- | Billy      | Hamilton  |
 -- | Ian        | Happ      |
 
-
+SELECT
+    last_name,
+    first_name
+FROM
+    players JOIN stats ON players.id = stats.player_id
